@@ -10,8 +10,8 @@
 }
 #arrowtop{
     position: fixed;
-    bottom:50px;
-    right: 0; 
+    bottom:300px;
+    right: 20px; 
 }
 #topnav{
     background-color: #FFF9E7;
@@ -38,35 +38,35 @@
 }
 @media screen and (max-width:1000px) {
     #sec1dv1{
-       max-width: 60%;
+       max-width: 90%;
    }
 }
 
 #sec1hd1{
     color: navy;
 }
-@media screen and (max-width:1000px) {
+/* @media screen and (max-width:1000px) {
     #sec1hd1{
        font-size: medium;
    }
-}
+} */
 
 #sec1sp1{
     color:#756BEE ;
 }
-@media screen and (max-width:1000px) {
+/* @media screen and (max-width:1000px) {
     #sec1sp1{
        font-size: medium;
    }
-}
+} */
 #sec1p1{
     color:#756BEE ;
 }
-@media screen and (max-width:1000px) {
+/* @media screen and (max-width:1000px) {
     #sec1p1{
        font-size: small;
    }
-}
+} */
 #sec1btn{
     background-color:#756BEE;
 }
@@ -167,7 +167,7 @@
 #sec3img2{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(Screenshot\ \(44\).png);
+    background-image: url(./Screenshot\ \(44\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -175,15 +175,15 @@
 #sec3img3{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(Screenshot\ \(5\).png);
+    background-image: url(./My\ Tictatoe.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 #sec3img4{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(Screenshot\ \(23\).png);
+    background-image: url(./My\ Banking\ App.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -191,7 +191,39 @@
 #sec3img5{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(Screenshot\ \(42\).png);
+    background-image: url(./My\ Todo\ App.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#sec3img6{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./My\ minicalaculator.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#sec3img7{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./My\ gradingsystem.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#sec3img8{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./My\ evalTable.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#sec3img9{
+    height: 200px;
+    background-color: #b5b0ee;
+    background-image: url(./My\ weatherApp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -219,8 +251,8 @@
 /* sec5 */
 #sec5{
     background-color:white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 #sec5dv1{
     background-image: url(./Screenshot_20220902-212424_Gallery-removebg-preview.png);
@@ -233,28 +265,26 @@
 }
 @media screen and (max-width:1000px) {
     #sec5dv1{
-        min-width: 40%;
-        height: auto;     
+        height: 40vh;
+        max-width: 50% !important;       
    }
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:600px) {
     #sec5dv1{
-        background-size: cover !important;     
+        height: 40vh;
+        max-width: 90% !important; 
+        background-size: cover;  
    }
 }
 
 @media screen and (max-width:1000px) {
     #sec5dv2{
-       max-width: 60%;
+       width: 80% !important; 
    }
 }
+
 #sec5p1{
     color: navy;
-}
-@media screen and (max-width:1000px) {
-    #sec5p1{
-       font-size: small;
-   }
 }
 
 #skills h1{
@@ -273,7 +303,7 @@
        font-size:small;
    }
 }
-ul {
+ul{
     display: flex;
     flex-flow: row wrap;
     gap: 40px;
