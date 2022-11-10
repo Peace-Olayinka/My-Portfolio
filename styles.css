@@ -2,6 +2,9 @@
     width: 100%;
     height: auto;
 }
+body{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width:1000px) {
     #parent{
        padding-left: 2em !important;
@@ -155,6 +158,22 @@
     #sec3p1{
        font-size: small;
    }
+}
+@keyframes scale {
+    from {
+        transform: scale(100%);
+    }
+
+    to {
+        transform: scale(120%);
+    }
+} 
+.myImg:hover{
+    animation-name: scale;
+    animation-duration: 300ms;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    animation-delay:200ms;
 }
 #sec3img1{
     height: 200px;
