@@ -378,19 +378,19 @@ ul{
    }
 }
 #sec6b{
-    background-color: navy;
+    color: navy;
 }
 @media screen and (max-width:1000px) {
     #sec6b h3{
        font-size:large;
    }
 }
-#sec6b aside{
+/* #sec6b aside{
     background-color: white;
     padding: 10px;
     color:#756BEE;
     font-size: small;
-}
+} */
 #sec6b strong{
     color: navy;
     font-size: large;
@@ -405,8 +405,9 @@ ul{
     text-decoration: none;
 }
 /* footer */
-footer{
+#footer{
     font-size: x-small;
+    background-color: navy;
 }
 @media screen and (max-width:1000px) {
     #footer{
