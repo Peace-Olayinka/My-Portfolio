@@ -13,8 +13,8 @@ body{
 }
 #arrowtop{
     position: fixed;
-    bottom:300px;
-    right: 20px; 
+    bottom:0px;
+    right: 0px; 
 }
 #topnav{
     background-color: #FFF9E7;
