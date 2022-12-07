@@ -178,31 +178,31 @@ body{
 #sec3img1{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(./Screenshot\ \(45\).png);
+    background-image: url(./my-fintech.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img2{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(./Screenshot\ \(44\).png);
+    background-image: url(./myPrintivo-1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img3{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(./MyTictatoe.png);
+    background-image: url(./myPritivo-2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img4{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(./MyBankingApp.png);
+    background-image: url(./MyTodoApp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ body{
 #sec3img5{
     height: 200px;
     background-color: #b5b0ee;
-    background-image: url(./MyTodoApp.png);
+    background-image: url(./MyTictatoe.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -221,7 +221,7 @@ body{
     background-image: url(./Myminicalaculator.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img7{
     height: 200px;
@@ -229,7 +229,7 @@ body{
     background-image: url(./Mygradingsystem.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img8{
     height: 200px;
@@ -237,7 +237,7 @@ body{
     background-image: url(./MyevalTable.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3img9{
     height: 200px;
@@ -245,7 +245,7 @@ body{
     background-image: url(./MyweatherApp.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 #sec3imgbx a{
     color: navy;
